@@ -110,7 +110,7 @@ if (unNumero == 5){
 if (unNumero1 == 6){
     alert ("no vas a ver éste mensaje");
 }
-*/
+
 
 let unColor = "Verde";
 
@@ -118,6 +118,47 @@ if (unColor == "Rojo") {
     alert("El color es rojo");
 }else {
     alert("El color no es rojo");
+} 
+
+let nombreUsuario = prompt("Ingresa tu nombre de usuario:");
+
+if (nombreUsuario == ""){
+    alert("No ingresaste ningún nombre de usuario!");
+    alert("Ingresalo por favor no piss off with me!!!");
+}else {
+    alert("Nombre de usuario ingresado:" + nombreUsuario);
+}
+
+alert("EL CLÁSICO: BARCELONA VS REAL MADRID!!");
+let nombreEquipo = prompt("Ingresa el nombre del Equipo que gana el partido:");
+
+if (nombreEquipo == ""){
+    alert("No ingresaste ningún equipo, no seas pecho frío!!")
+}else {
+    alert("El equipo que tus pronosticos le dan el triunfo es: " + nombreEquipo);
+}
+
+let edad = 40;
+
+if (edad <= 15){
+    alert("La edad es menor o igual de 15 años");
+}else if (edad <= 25){
+    alert("La edad es menor o igual de 25 años");
+}else if(edad <= 40){
+    alert("La edad es menor o igual de 40 años");
+}else if(edad <= 60){
+    alert("La edad es menor o igual de 60 años");
+}else{
+    alert("La edad es mayor de 60 años");
+}*/
+
+let numero = 0;
+let esMayor = (numero >= 0);
+
+if(esMayor){
+    alert("Es boolean TRUE");
+}else {
+    alert("Es bolean FALSE");
 }
 
 
