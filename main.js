@@ -150,7 +150,7 @@ if (edad <= 15){
     alert("La edad es menor o igual de 60 años");
 }else{
     alert("La edad es mayor de 60 años");
-}*/
+}
 
 let numero = 0;
 let esMayor = (numero >= 0);
@@ -159,6 +159,23 @@ if(esMayor){
     alert("Es boolean TRUE");
 }else {
     alert("Es bolean FALSE");
+}
+
+let nombreIngresado = prompt("Ingrese su nombre: ");
+let apellidoIngresado = prompt("Ingrese su apellido: ");
+
+if((nombreIngresado != "") && (apellidoIngresado != "")){
+    alert("El nombre ingresado es: " + nombreIngresado + "\nEl apellido ingresado es: " + apellidoIngresado);
+}else{
+    alert("Error: Ingresar nombre y apellido");
+}*/
+
+let nombreIngresado = prompt("Ingresar nombre:");
+
+if((nombreIngresado == "DIOS") || (nombreIngresado == "Dios")){
+    alert("El nombre ingresado es: Dios");
+}else {
+    alert("El nombre ingresado no es el correcto!!");
 }
 
 
