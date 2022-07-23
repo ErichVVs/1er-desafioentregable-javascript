@@ -168,7 +168,7 @@ if((nombreIngresado != "") && (apellidoIngresado != "")){
     alert("El nombre ingresado es: " + nombreIngresado + "\nEl apellido ingresado es: " + apellidoIngresado);
 }else{
     alert("Error: Ingresar nombre y apellido");
-}*/
+}
 
 let nombreIngresado = prompt("Ingresar nombre:");
 
@@ -176,6 +176,22 @@ if((nombreIngresado == "DIOS") || (nombreIngresado == "Dios")){
     alert("El nombre ingresado es: Dios");
 }else {
     alert("El nombre ingresado no es el correcto!!");
+}
+
+let nombreIngresado = prompt("Ingresar el único nombre correcto: ");
+
+if (((nombreIngresado != "") && (nombreIngresado == "DIOS")) || (nombreIngresado == "Dios")){
+    alert("Hola: Dios Mio!!");
+}else{
+    alert("No eres el nombre valido! \nLARGO!!!!");
+}*/
+
+let adivinaNumero = prompt("Adivina el número de 1 al 10 en que éstoy pensando:")
+
+if((adivinaNumero != "") && (adivinaNumero == 8)){
+    alert("Número correcto!!!");
+}else {
+    alert("Número incorrecto");
 }
 
 
