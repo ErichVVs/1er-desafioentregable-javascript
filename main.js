@@ -184,7 +184,7 @@ if (((nombreIngresado != "") && (nombreIngresado == "DIOS")) || (nombreIngresado
     alert("Hola: Dios Mio!!");
 }else{
     alert("No eres el nombre valido! \nLARGO!!!!");
-}*/
+}
 
 let adivinaNumero = prompt("Adivina el número de 1 al 10 en que éstoy pensando:")
 
@@ -192,6 +192,18 @@ if((adivinaNumero != "") && (adivinaNumero == 8)){
     alert("Número correcto!!!");
 }else {
     alert("Número incorrecto");
+}*/
+
+let adivinaNumero = prompt("Ingrese el número que pienso entre el 1 y el infinito:");
+
+if(adivinaNumero < 6){
+    alert("Número incorrecto!!!");
+}else if(adivinaNumero > 6){
+    alert("Número incorrecto");
+}else if(adivinaNumero == ""){
+    alert("Ingrese un número");
+}else{
+    alert("Número correcto");
 }
 
 
