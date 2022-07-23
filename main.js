@@ -83,13 +83,21 @@ console.log (nombre);
 
 let entrada = prompt("Ingrese una letra:");
 let salida = ("Tu letra ingresada es:" + " " + entrada);
-alert(salida);*/
+alert(salida);
 
 let creditoDisponible = prompt("Ingresa tu credito disponible:");
 let dineroDisponible = prompt("Inresa tu dinero dispobible");
 
 const resta = (creditoDisponible - dineroDisponible);
-alert (`El credito no puede disminuir por la cantidad de: \$${resta} pesos.`);
+alert (`El credito no puede disminuir por la cantidad de: \$${resta} pesos.`);*/
+
+if (true) {
+    console.log("vas a ver éste mensaje");
+}
+
+if (false) {
+    console.log("no vas a ver éste segundo mensaje");
+}
 
 
 
