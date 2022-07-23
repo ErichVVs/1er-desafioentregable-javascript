@@ -89,7 +89,7 @@ let creditoDisponible = prompt("Ingresa tu credito disponible:");
 let dineroDisponible = prompt("Inresa tu dinero dispobible");
 
 const resta = (creditoDisponible - dineroDisponible);
-alert (`El credito no puede disminuir por la cantidad de: \$${resta} pesos.`);*/
+alert (`El credito no puede disminuir por la cantidad de: \$${resta} pesos.`);
 
 if (true) {
     console.log("vas a ver éste mensaje");
@@ -98,6 +98,28 @@ if (true) {
 if (false) {
     console.log("no vas a ver éste segundo mensaje");
 }
+
+
+let unNumero = 5;
+let unNumero1 = 6;
+
+if (unNumero == 5){
+    alert ("vas a ver éste mensaje");
+}
+
+if (unNumero1 == 6){
+    alert ("no vas a ver éste mensaje");
+}
+*/
+
+let unColor = "Verde";
+
+if (unColor == "Rojo") {
+    alert("El color es rojo");
+}else {
+    alert("El color no es rojo");
+}
+
 
 
 
