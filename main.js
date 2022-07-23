@@ -200,8 +200,6 @@ if(adivinaNumero < 6){
     alert("Número incorrecto!!!");
 }else if(adivinaNumero > 6){
     alert("Número incorrecto");
-}else if(adivinaNumero == ""){
-    alert("Ingrese un número");
 }else{
     alert("Número correcto");
 }
