@@ -21,7 +21,7 @@ let numeroSumado = parseInt(prompt("Ingrese su número a sumar: "));
 for( let i = 1; i <= 15; i++){
     let resultado = (numeroSumado + i);
     alert(numeroSumado + "+" + i + "=" + resultado);
-}*/
+}
 
 let numeroMultiplicar = parseInt(prompt("Ingresa el monto de deuda que se calculara mensualmente: "));
 
@@ -29,3 +29,22 @@ for(let i = 1; i <= 12; i++){
     let resultado = (numeroMultiplicar * i);
     alert(numeroMultiplicar + "x" + i + "=" + resultado);
 }
+
+for(let i = 1; i <=10; i++){
+    let ingresarNombre = prompt("Ingresar nombre: ");
+    alert( "Turno N°: " + i + "  Nombre: " + ingresarNombre);
+}
+
+for(let i = 1; i <= 10; i++){
+    if(i == 6){
+        break
+    }
+    alert(i);
+}
+
+for(let i = 1; i <= 10; i++){
+    if(i == 9){
+        break;
+    }
+    alert(i);
+}*/
