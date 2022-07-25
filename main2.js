@@ -66,7 +66,15 @@ for(let i = 1; i <= 20; i++){
 let repetir = true;
 while(repetir){
     console.log("Al infinito y más allá!");
+}
+
+let entrada = prompt("Ingresar un dato: ");
+while((entrada != "ESC") && (entrada != "esc") && (entrada != "Esc")){
+    alert("El usuario ingresó: " + entrada);
+    entrada = prompt("Ingresar otro dato");
 }*/
+
+
 
 
 
