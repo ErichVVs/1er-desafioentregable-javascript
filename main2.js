@@ -54,7 +54,7 @@ for(let i = 1; i <= 10; i++){
         continue;
     }
     alert(i);
-}*/
+}
 
 for(let i = 1; i <= 20; i++){
     if((i == 5) || (i == 10) || (i == 15)){
@@ -62,3 +62,11 @@ for(let i = 1; i <= 20; i++){
     }
     alert(i);
 }
+
+let repetir = true;
+while(repetir){
+    console.log("Al infinito y más allá!");
+}*/
+
+
+
