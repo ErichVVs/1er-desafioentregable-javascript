@@ -192,7 +192,7 @@ if((adivinaNumero != "") && (adivinaNumero == 8)){
     alert("Número correcto!!!");
 }else {
     alert("Número incorrecto");
-}*/
+}
 
 let adivinaNumero = prompt("Ingrese el número que pienso entre el 1 y el infinito:");
 
@@ -203,6 +203,14 @@ if(adivinaNumero < 6){
 }else{
     alert("Número correcto");
 }
+
+
+if("CODER" == "COCINA"){
+    console.log("ES CODER");
+}else{
+    console.log("ES HOUSE");
+}
+*/
 
 
 

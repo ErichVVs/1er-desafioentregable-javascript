@@ -1,0 +1,31 @@
+/*for (let i = 1; i <= 5; i++) {
+    alert(i);
+}
+
+let ingresarNumero = parseInt(prompt("Ingresar Número: "));
+
+for (let i = 1; i <= 6; i++) {
+    let resultado = ingresarNumero * i ;
+    alert(ingresarNumero + " x " + i + " = " + resultado);
+}
+
+let numeroMultiplicar = parseInt(prompt("Ingresa el número que quieras multiplicar: "));
+
+for(let i = 0; i <= 14; i++){
+    let resultado = (numeroMultiplicar * i);
+    alert(numeroMultiplicar + "x" + i + "=" + resultado);
+}
+
+let numeroSumado = parseInt(prompt("Ingrese su número a sumar: "));
+
+for( let i = 1; i <= 15; i++){
+    let resultado = (numeroSumado + i);
+    alert(numeroSumado + "+" + i + "=" + resultado);
+}*/
+
+let numeroMultiplicar = parseInt(prompt("Ingresa el monto de deuda que se calculara mensualmente: "));
+
+for(let i = 1; i <= 12; i++){
+    let resultado = (numeroMultiplicar * i);
+    alert(numeroMultiplicar + "x" + i + "=" + resultado);
+}
