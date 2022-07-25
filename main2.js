@@ -47,4 +47,18 @@ for(let i = 1; i <= 10; i++){
         break;
     }
     alert(i);
+}
+
+for(let i = 1; i <= 10; i++){
+    if(i == 5){
+        continue;
+    }
+    alert(i);
 }*/
+
+for(let i = 1; i <= 20; i++){
+    if((i == 5) || (i == 10) || (i == 15)){
+        continue;
+    }
+    alert(i);
+}
