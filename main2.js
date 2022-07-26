@@ -115,5 +115,45 @@ let letra = prompt("Ingrese la letra: ");
 do{
     console.log(letra);
 }while(prompt("Ingresa otra letra: "));
-*/
 
+
+let numero = prompt("Ingresar un nombre");
+
+while(numero != "ESC"){
+        
+    switch(numero){
+        case "ANA":
+            alert("HOLA ANA");
+            break;
+        case "JUAN":
+            alert("HOLA JUAN");
+            break;
+        default:
+            alert("¿QUIÉN SOS?")
+            break;
+        }
+    numero = prompt("Ingresar un nombre: ");    
+}
+
+//HAcer match sólo con los nombres que incluye switch.
+
+let entrada = prompt("Ingresar el nombre de un mago en el Barsa: ");
+
+while(entrada != "esc"){
+    switch(entrada){
+        case "PEDRI":
+            alert("HOLA PEDRI");
+            break;
+        case "GAVI":
+            alert("HOLA GAVI");
+            break;
+        case "MESSI":
+            alert("HOLA MESSI");
+            break;
+        default:
+            alert("BUENO, PERO NO MAGO.")
+            break;
+    }
+    entrada = prompt("Ingresar el nombre de una mago en el Barsa: ");
+}
+*/
