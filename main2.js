@@ -72,9 +72,48 @@ let entrada = prompt("Ingresar un dato: ");
 while((entrada != "ESC") && (entrada != "esc") && (entrada != "Esc")){
     alert("El usuario ingresó: " + entrada);
     entrada = prompt("Ingresar otro dato");
-}*/
+}
+
+let repetir = false;
+
+do{
+    console.log("Solo una vez!");
+}while(repetir)
+
+let numero = 0;
+do {
+    numero = prompt("Ingresar Número: ");
+    console.log(numero);
+}while(parseFloat(numero));
+
+let entrada = prompt ("Ingresar un nombre: ")
+
+let repetir = false;
+do{
+    console.log("Sólo una vez!!");
+}while(repetir);
+
+let repetir = false;
+do{
+    alert("Sólo una vez!!");
+}while(repetir);
 
 
+let repetir = false;
+do{
+    console.log("Sólo se repita una vez!!");
+}while(repetir);
 
+let numero = "fd";
+do{
+    numero = prompt ("Ingresar un Número: ");
+    console.log(numero);
+}while(parseInt(numero));
 
+let letra = prompt("Ingrese la letra: ");
+
+do{
+    console.log(letra);
+}while(prompt("Ingresa otra letra: "));
+*/
 
