@@ -157,3 +157,4 @@ while(entrada != "esc"){
     entrada = prompt("Ingresar el nombre de una mago en el Barsa: ");
 }
 */
+
