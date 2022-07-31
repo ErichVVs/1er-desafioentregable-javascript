@@ -178,6 +178,29 @@ function resultadoFutbol(){
 
 resultadoFutbol();
 
+
+
+let nombreIngresado = prompt("Ingresar nombre:");
+alert("El nombre ingresado es: " + nombreIngresado);
+
+nombreIngresado = prompt("Ingresar nombre:");
+alert("El nombre ingresado es: " + nombreIngresado);
+
+nombreIngresado = prompt("Ingresar nombre:");
+alert("El nombre ingresado es: " + nombreIngresado);
+
+function solicitarNombre (){
+    let nombreIngresado = prompt("Ingresar nombre: ");
+    alert("Nombre ingresado: " + nombreIngresado);
+}
+
+solicitarNombre();
+solicitarNombre();
+solicitarNombre();
 */
 
-
+function conParametros(parametro1, parametro2){
+    alert(parametro1 +  " " + parametro2);
+}
+conParametros("Hola", "Coder");
+conParametros("Cursando", "JS");
