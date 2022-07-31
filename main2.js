@@ -156,7 +156,7 @@ while(entrada != "esc"){
     }
     entrada = prompt("Ingresar el nombre de una mago en el Barsa: ");
 }
-*/
+
 
 const numeros = [1,2,3,4,5];
 
@@ -165,4 +165,7 @@ console.log ( numeros[3]);
 
 let resultado = numeros[1] + numeros[2];
 console.log (resultado);
+*/
+
+const miArray = ["marca", ]
 
