@@ -289,5 +289,16 @@ function sumar(primerNumero, segundoNumero){
 }
 
 sumar(5, 6);
+
+let nombre = "John Doe";
+
+function saludar(){
+    let nombre = "Juan Coder";
+    alert(nombre);
+}
+
+saludar(nombre);
+alert(nombre);
+
 */
 
