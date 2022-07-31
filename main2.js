@@ -274,8 +274,6 @@ alert(calculadora(10,20, prompt("Ingresa signo para la operación: ")));
 alert(calculadora(10,20, prompt("Ingresa signo para la operación: ")));
 alert(calculadora(10,20, prompt("Ingresa signo para la operación: ")));
 
-*/
-
 let resultado = 0;
 
 function suma(numero1, numero2){
@@ -284,3 +282,12 @@ function suma(numero1, numero2){
 
 suma(5,8);
 alert(resultado);
+
+function sumar(primerNumero, segundoNumero){
+    let resultado = primerNumero + segundoNumero;
+    alert("El resultado es: " + resultado);
+}
+
+sumar(5, 6);
+*/
+
