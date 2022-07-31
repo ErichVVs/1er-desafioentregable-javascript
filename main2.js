@@ -197,10 +197,44 @@ function solicitarNombre (){
 solicitarNombre();
 solicitarNombre();
 solicitarNombre();
-*/
 
 function conParametros(parametro1, parametro2){
     alert(parametro1 +  " " + parametro2);
 }
 conParametros("Hola", "Coder");
 conParametros("Cursando", "JS");
+
+function resultadoFutbol(equipo1, equipo2, resultado){
+    alert(`El resultado del partido: ${equipo1} VS ${equipo2} fue de: ${resultado}`);
+}
+
+resultadoFutbol("Barcelona", "Juventus", "2-2");
+resultadoFutbol("Barcelona", "Real Madrid", "1-0");
+
+let resultado = 0;
+
+function sumar(primerNumero, segundoNumero){
+    resultado = primerNumero + segundoNumero;
+}
+
+function mostrar(mensaje){
+    alert(mensaje);
+}
+
+sumar(6, 3);
+mostrar(resultado);
+
+let aniosdeCarrera = 0;
+
+function sumar(carreraPre, carreraPro){
+    resultado = carreraPre + carreraPro;
+}
+
+function resultadoSuma(mensaje){
+    alert(mensaje)
+}
+
+sumar(10, 20);
+resultadoSuma(resultado);
+*/
+
