@@ -276,3 +276,11 @@ alert(calculadora(10,20, prompt("Ingresa signo para la operación: ")));
 
 */
 
+let resultado = 0;
+
+function suma(numero1, numero2){
+    resultado = numero1 + numero2; 
+}
+
+suma(5,8);
+alert(resultado);
