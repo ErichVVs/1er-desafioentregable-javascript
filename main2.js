@@ -227,7 +227,7 @@ mostrar(resultado);
 let aniosdeCarrera = 0;
 
 function sumar(carreraPre, carreraPro){
-    resultado = carreraPre + carreraPro;
+    aniosdeCarrera = carreraPre + carreraPro;
 }
 
 function resultadoSuma(mensaje){
@@ -235,6 +235,44 @@ function resultadoSuma(mensaje){
 }
 
 sumar(10, 20);
-resultadoSuma(resultado);
+resultadoSuma(aniosdeCarrera);
+
+
+function sumar(primerNumero, segundoNumero){
+    return primerNumero + segundoNumero;
+}
+let resultado = sumar(5,8);
+
+alert(resultado);
+
+function calculadora(primerNumero, segundoNumero, operacion){
+    switch (operacion){
+        case "+":
+            return primerNumero + segundoNumero;
+            break;
+        case "-":
+            return primerNumero - segundoNumero;
+            break;
+        case "/":
+            return primerNumero / segundoNumero;
+            break;
+        case "*":
+            return primerNumero * segundoNumero;
+            break;
+        case "%":
+            return primerNumero % segundoNumero;
+            break;
+        default:
+            return 0;
+            break;
+    }
+}
+
+alert(calculadora(10,20, prompt("Ingresa signo para la operación: ")));
+alert(calculadora(10,20, prompt("Ingresa signo para la operación: ")));
+alert(calculadora(10,20, prompt("Ingresa signo para la operación: ")));
+alert(calculadora(10,20, prompt("Ingresa signo para la operación: ")));
+alert(calculadora(10,20, prompt("Ingresa signo para la operación: ")));
+
 */
 
