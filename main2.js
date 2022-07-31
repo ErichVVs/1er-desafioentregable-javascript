@@ -165,7 +165,19 @@ console.log ( numeros[3]);
 
 let resultado = numeros[1] + numeros[2];
 console.log (resultado);
+
+function saludar(){
+    alert("Hola estudiantes!");
+}
+
+saludar();
+
+function resultadoFutbol(){
+    alert("El Barcelona ganó 2-0 al Red Bull!!");
+}
+
+resultadoFutbol();
+
 */
 
-const miArray = ["marca", ]
 
