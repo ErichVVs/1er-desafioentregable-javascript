@@ -300,5 +300,16 @@ function saludar(){
 saludar(nombre);
 alert(nombre);
 
-*/
+const suma = function (a, b){return a + b};
+const resta = function (a, b){return a - b};
 
+alert(suma(10,3));
+alert(resta(10,6));
+
+const multiplicar = function(a,b){return a * b};
+const dividir = function(a,b){return a / b};
+
+alert(multiplicar(5,8));
+alert(parseInt(dividir(100, 9)));
+
+*/
