@@ -312,4 +312,28 @@ const dividir = function(a,b){return a / b};
 alert(multiplicar(5,8));
 alert(parseInt(dividir(100, 9)));
 
+const suma = (a, b) => {return a + b};
+const resta = (a, b) => {return a - b};
+
+alert(suma(10, 2));
+alert(resta(10, 5));
+
+const multiplicar = (a, b) => a * b;
+const dividir = (a, b) => a / b;
+
+alert(multiplicar(8, 7));
+alert(dividir(100, 10));
+
+const sumar = (a, b) => {return a + b};
+const restar = (a, b) => {return a - b};
+
+alert(sumar(10, 7));
+alert(restar(54, 23));
+
+const multiplicar = (a, b) => a * b;
+const dividir = (a, c) => a / c;
+
+alert(multiplicar(40, 3));
+alert(dividir(32, 8));
+
 */
