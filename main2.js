@@ -369,8 +369,6 @@ alert(resultadosBarcelona["partido2"]);
 alert(resultadosBarcelona["partido3"]);
 alert(resultadosBarcelona["partido4"]);
 
-*/
-
 const resultadosBarcelona = {
     partido1: "Barcelona 6 - 0 Inter Miami",
     partido2: "Barcelona 1 - 0 Real Madrid",
@@ -382,3 +380,16 @@ alert(resultadosBarcelona.partido1);
 alert(resultadosBarcelona["partido2"]);
 alert(resultadosBarcelona.partido3);
 alert(resultadosBarcelona["partido4"]);
+*/
+
+function Persona(nombre, edad, calle){
+    this.nombre = nombre;
+    this.edad = edad;
+    this.calle = calle;
+    this.hablar = function(){alert("Hola soy: " + this.nombre)}
+}
+const persona1 = new Persona("Homero", 39, "Av. Siempreviva 742");
+const persona2 = new Persona("Marge", 36, "Av. Siempreviva 742");
+
+persona1.hablar();
+persona2.hablar();
