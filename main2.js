@@ -380,7 +380,6 @@ alert(resultadosBarcelona.partido1);
 alert(resultadosBarcelona["partido2"]);
 alert(resultadosBarcelona.partido3);
 alert(resultadosBarcelona["partido4"]);
-*/
 
 function Persona(nombre, edad, calle){
     this.nombre = nombre;
@@ -396,3 +395,12 @@ persona1.hablar();
 persona2.hablar();
 persona1.datos();
 persona2.datos();
+*/
+
+const persona1 = { nombre: "Homero", edad: 39, calle: "Av. Siempreviva 742"};
+alert("nombre" in persona1);
+alert("origen" in persona1);
+
+for(const propiedades in persona1){
+    alert(persona1[propiedades]);
+}
