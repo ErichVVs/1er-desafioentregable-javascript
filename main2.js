@@ -344,7 +344,6 @@ const persona1 = {
 alert(persona1.nombre);
 alert(persona1.edad);
 alert(persona1.calle);
-*/
 
 const resultadosBarcelona = {
     partido1: "Barcelona 6 - 0 Inter Miami",
@@ -357,3 +356,29 @@ alert(resultadosBarcelona.partido1);
 alert(resultadosBarcelona.partido2);
 alert(resultadosBarcelona.partido3);
 alert(resultadosBarcelona.partido4);
+
+const resultadosBarcelona = {
+    partido1: "Barcelona 6 - 0 Inter Miami",
+    partido2: "Barcelona 1 - 0 Real Madrid",
+    partido3: "Barcelona 2 - 2 Juventus",
+    partido4: "Barcelona 2 - 0 RedBulls"
+};
+
+alert(resultadosBarcelona["partido1"]);
+alert(resultadosBarcelona["partido2"]);
+alert(resultadosBarcelona["partido3"]);
+alert(resultadosBarcelona["partido4"]);
+
+*/
+
+const resultadosBarcelona = {
+    partido1: "Barcelona 6 - 0 Inter Miami",
+    partido2: "Barcelona 1 - 0 Real Madrid",
+    partido3: "Barcelona 2 - 2 Juventus",
+    partido4: "Barcelona 2 - 0 RedBulls"
+};
+
+alert(resultadosBarcelona.partido1);
+alert(resultadosBarcelona["partido2"]);
+alert(resultadosBarcelona.partido3);
+alert(resultadosBarcelona["partido4"]);
