@@ -337,3 +337,12 @@ alert(multiplicar(40, 3));
 alert(dividir(32, 8));
 
 */
+
+const persona1 = {
+    nombre: "Homero", 
+    edad: 39, 
+    calle: "AV. Siempreviva 742"
+    };
+alert(persona1.nombre);
+alert(persona1.edad);
+alert(persona1.calle);
