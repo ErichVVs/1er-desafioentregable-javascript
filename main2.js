@@ -395,7 +395,6 @@ persona1.hablar();
 persona2.hablar();
 persona1.datos();
 persona2.datos();
-*/
 
 const persona1 = { nombre: "Homero", edad: 39, calle: "Av. Siempreviva 742"};
 alert("nombre" in persona1);
@@ -404,3 +403,10 @@ alert("origen" in persona1);
 for(const propiedades in persona1){
     alert(persona1[propiedades]);
 }
+*/
+
+const numeros = [1,2,3,4,5];
+alert(numeros[0]);
+alert(numeros[3]);
+let resultado = numeros[1] + numeros[4];
+alert(resultado);
