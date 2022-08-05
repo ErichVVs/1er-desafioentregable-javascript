@@ -403,10 +403,15 @@ alert("origen" in persona1);
 for(const propiedades in persona1){
     alert(persona1[propiedades]);
 }
-*/
 
 const numeros = [1,2,3,4,5];
 alert(numeros[0]);
 alert(numeros[3]);
 let resultado = numeros[1] + numeros[4];
 alert(resultado);
+*/
+
+const numeros = [-5,-4,-3,-2,-1,0,1,2,3,4,5,6,7,8];
+for (let index = 0; index < 15; index++){
+    alert(numeros[index]);
+}
