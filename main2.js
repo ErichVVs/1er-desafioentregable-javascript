@@ -450,6 +450,13 @@ miArray.push("otro elemento");
 
 alert(miArray.length);
 alert(miArray);
+
+const partidosJugados = ["vs Juventus", "vs Inter", "vs pumas", "vs real madrid", "vs redbull"];
+partidosJugados.unshift("vs Rayo Vayecano");
+
+alert(partidosJugados.length);
+alert(partidosJugados);
+
 */
 
 const partidosJugados = ["vs Juventus", "vs Inter", "vs pumas", "vs real madrid", "vs redbull"];
