@@ -415,10 +415,45 @@ for (let index = 0; index < 15; index++){
     alert(numeros[index]);
 }
 
-*/
-
 const numeros = [1,20,30,40,50,60,70,80,90]
 
 for (let i=0; i < numeros.length; i++){
     alert(numeros[i]);
 }
+
+const numeros = [1,2,3,4,5,];
+alert(numeros[0]);
+alert(numeros[4]);
+let resultado = numeros[2] + numeros[3];
+alert(resultado);
+
+const numerosa = [1,2,3,4,5];
+for (let index = 0; index < 5; index++){
+    alert(numerosa[index]);
+}
+
+const venemus = [1,2,3,4,5];
+    for (let index = 0; index < 5; index++){
+    alert(venemus[index]);
+}
+
+const miArray = ["marca", 3, "palabra", "silbato", "deportiva", 5];
+alert(miArray.length);
+
+const numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+for (let i = 0; i < numeros.length; i++){
+    alert(numeros[i]);
+}
+
+const miArray = ["marca", 3, "palabra"];
+miArray.push("otro elemento");
+
+alert(miArray.length);
+alert(miArray);
+*/
+
+const partidosJugados = ["vs Juventus", "vs Inter", "vs pumas", "vs real madrid", "vs redbull"];
+partidosJugados.push("vs Rayo Vayecano");
+
+alert(partidosJugados.length);
+alert(partidosJugados);
