@@ -457,10 +457,22 @@ partidosJugados.unshift("vs Rayo Vayecano");
 alert(partidosJugados.length);
 alert(partidosJugados);
 
+const partidosJugados = ["vs Juventus", "vs Inter", "vs pumas", "vs real madrid", "vs redbull"];
+partidosJugados.push("vs Rayo Vayecano");
+
+alert(partidosJugados.length);
+alert(partidosJugados);
+
+const partidosJugados = ["vs Juventus", "vs Inter", "vs pumas", "vs real madrid", "vs redbull"];
+partidosJugados.pop();
+
+alert(partidosJugados.length);
+alert(partidosJugados);
+
 */
 
 const partidosJugados = ["vs Juventus", "vs Inter", "vs pumas", "vs real madrid", "vs redbull"];
-partidosJugados.push("vs Rayo Vayecano");
+partidosJugados.pop();
 
 alert(partidosJugados.length);
 alert(partidosJugados);
