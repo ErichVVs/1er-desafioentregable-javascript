@@ -469,10 +469,16 @@ partidosJugados.pop();
 alert(partidosJugados.length);
 alert(partidosJugados);
 
-*/
-
 const partidosJugados = ["vs Juventus", "vs Inter", "vs pumas", "vs real madrid", "vs redbull"];
 partidosJugados.pop();
 
 alert(partidosJugados.length);
 alert(partidosJugados);
+
+*/
+
+const nombres = [" Juventus", " Inter", " Pumas", " Real madrid", " Redbull", " Rayo vayecano"];
+nombres.splice(2, 1);
+
+alert(nombres);
+
