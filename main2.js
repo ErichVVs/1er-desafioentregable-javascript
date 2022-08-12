@@ -482,9 +482,15 @@ nombres.splice(2, 1);
 
 alert(nombres);
 
-*/
-
 const nombres = [" Juventus", " Inter", " Pumas", " Real madrid", " Redbull", " Rayo vayecano"];
 nombres.splice(2, 1);
 
 alert(nombres);
+*/
+
+
+let miPrimeraVariable = "mi primera variable"
+alert(miPrimeraVariable);
+
+miPrimeraVariable = "Esto ha cambiado"
+alert(miPrimeraVariable);
