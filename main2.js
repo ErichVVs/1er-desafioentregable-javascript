@@ -486,11 +486,20 @@ const nombres = [" Juventus", " Inter", " Pumas", " Real madrid", " Redbull", " 
 nombres.splice(2, 1);
 
 alert(nombres);
-*/
-
 
 let miPrimeraVariable = "mi primera variable"
 alert(miPrimeraVariable);
 
 miPrimeraVariable = "Esto ha cambiado"
 alert(miPrimeraVariable);
+
+const persona1 = {
+    nombre: "Alan",
+    edad: 39,
+    calle: "Avenida 14"
+}
+
+alert(persona1.nombre);
+alert(persona1["calle"] + " " + persona1["edad"]);
+
+*/
