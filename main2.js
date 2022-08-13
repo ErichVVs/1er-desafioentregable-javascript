@@ -493,6 +493,8 @@ alert(miPrimeraVariable);
 miPrimeraVariable = "Esto ha cambiado"
 alert(miPrimeraVariable);
 
+*/
+
 const persona1 = {
     nombre: "Alan",
     edad: 39,
@@ -502,4 +504,8 @@ const persona1 = {
 alert(persona1.nombre);
 alert(persona1["calle"] + " " + persona1["edad"]);
 
-*/
+persona1.nombre = "Valeria";
+persona1["calle"] = "Avenida 18";
+
+alert(persona1.nombre),
+alert(persona1["calle"]);
