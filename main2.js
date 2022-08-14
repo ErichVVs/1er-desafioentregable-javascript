@@ -501,7 +501,6 @@ const persona1 = {
     calle: "Avenida 14"
 }
 
-alert(persona1.nombre);
 alert(persona1["calle"] + " " + persona1["edad"]);
 
 persona1.nombre = "Valeria";
