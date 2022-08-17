@@ -518,7 +518,6 @@ const persona2 = new Persona ("Marge", 37, "Av. Siempreviva 743");
 
 alert(Persona.persona1);
 alert(Persona.persona2);
-*/
 
 function Persona (nombre, edad, calle){
     this.nombre = nombre;
@@ -531,3 +530,10 @@ const persona1 = new Persona ("Homero", 39, "Av. Siempreviva 742");
 const persona2 = new Persona ("Marge", 37, "Av. Siempreviva 740");
 persona1.hablar();
 persona2.hablar();
+*/
+
+let cadena = "HOLA CODER Oh Shi!!!";
+
+alert(cadena.length);
+alert(cadena.toLowerCase());
+
