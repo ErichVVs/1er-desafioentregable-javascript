@@ -203,14 +203,14 @@ if(adivinaNumero < 6){
 }else{
     alert("Número correcto");
 }
-
+*/
 
 if("CODER" == "COCINA"){
     console.log("ES CODER");
 }else{
     console.log("ES HOUSE");
 }
-*/
+
 
 
 
