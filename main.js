@@ -205,7 +205,7 @@ if(adivinaNumero < 6){
 }
 */
 
-if("CODER" == "COCINA"){
+if("CODER" == "KITCHEN"){
     console.log("ES CODER");
 }else{
     console.log("ES HOUSE");
